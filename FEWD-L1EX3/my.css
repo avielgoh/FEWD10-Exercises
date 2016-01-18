@@ -1,0 +1,21 @@
+body {
+  background-color: #FFE;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 2%;
+}
+
+h3 {
+  color: #887;
+}
+
+a {
+  color: #900;
+}
+
+img {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
