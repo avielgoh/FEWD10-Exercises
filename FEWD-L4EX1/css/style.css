@@ -1,0 +1,25 @@
+#notification,
+.message {
+  background: beige;
+  padding: 0.5em 0.75em;
+  border: 2px solid #f2f2f2;
+}
+
+#notification:before {
+  content: "!";
+  font-size: 3em;
+  margin-right: 5px;
+  color: green;
+}
+
+.message {
+  font-family: Georgia, sans-serif;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-weight: lighter;
+}
+
+.error {
+  border: 2px solid red;
+  color: red;
+}
