@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+}
+
+.placeholder {
+  background: lightgrey;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+#main {
+  width: 66.6667%;
+  float: left;
+}
+
+aside {
+  width: 33.3333%;
+  float: right;
+}
+
+footer {
+  clear: both; /* clear float of the #main and aside elements */
+}
